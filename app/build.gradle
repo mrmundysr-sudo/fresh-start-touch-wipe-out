@@ -1,0 +1,16 @@
+plugins {
+    id "com.android.application"
+}
+
+android {
+    namespace "com.touchclean.pinkpoc"
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.touchclean.pinkpoc"
+        minSdk 23
+        targetSdk 35
+        versionCode 19
+        versionName "0.13.1"
+    }
+}
