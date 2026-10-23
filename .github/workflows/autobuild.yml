@@ -17,7 +17,7 @@ concurrency:
 
 jobs:
   build:
-    uses: mrmundysr-sudo/touch-development/.github/workflows/android-build.yml@97ce9ff9e6e178052c3ac64f8a7a3ed1fdb1bf5c # v1.0.1
+    uses: mrmundysr-sudo/touch-development/.github/workflows/android-build.yml@46c14e78221286918b69282f627eeb0e73c7ad96 # validator candidate (regression test only)
     with:
       artifact_name: Fresh-Start-debug-${{ github.run_number }}
       java_version: "17"
